@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-5">
+      <input class="form-control form-control-sm mt-4 mb-4" type="number" placeholder="Ingrese un número" aria-label=".form-control-sm example" [(ngModel)] = "numero1">
+      <input class="form-control form-control-sm mt-4 mb-4" type="number" placeholder="Ingrese un número" aria-label=".form-control-sm example" [(ngModel)] = "numero2">
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <button type="button" class="btn btn-success" (click)="sumar()">Sumar</button>
+        <button type="button" class="btn btn-success" (click)="restar()">Restar</button>
+        <button type="button" class="btn btn-success" (click)="multiplicar()">Multiplicar</button>
+        <button type="button" class="btn btn-success" (click)="dividir()">Dividir</button>
+      </div>
+    </div>
+    <div class="col col-7 mt-4 mb-4">
+      <div class="container">
+        <div class="row">
+          <div id="respuesta">
+            <p id="textoRespuesta"> El resultado de su operación es: <strong id="resultadoRespuesta">{{ resultado }}</strong></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

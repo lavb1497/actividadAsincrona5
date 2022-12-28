@@ -1,0 +1,11 @@
+#respuesta {
+  background-color: rgb(142, 249, 249);
+  height: 150px;
+  text-align: center;
+}
+#textoRespuesta {
+  margin-top: 45px;
+}
+#resultadoRespuesta {
+  font-size: x-large;
+}
